@@ -4,10 +4,16 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Emily", "Ahn", , "eahn01@students.cs.ubc.ca", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description:  Convenience functions to ake some common tasks with string
+Description: Convenience functions to ake some common tasks with string
     manipulation and regular expressions a bit easier..
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
+URL: https://github.com/eahn01/regexcite
+BugReports: https://github.com/eahn01/regexcite/issues
